@@ -1,0 +1,23 @@
+{
+    "name": "venost/barsy-api-client",
+    "license": "proprietary",
+    "description": "Helper client for Barsy.bg API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Georgi Tsonev",
+            "email": "georgi.r.tsonev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VenosT\\Barsy": "src"
+        }
+    },
+    "version": "1.0.135"
+}

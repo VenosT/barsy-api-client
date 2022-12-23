@@ -1,0 +1,4 @@
+INSTALL
+-------------
+
+composer require venost/barsy-api-client
