@@ -14,7 +14,7 @@ class Storeouts{
 
   /**
    * @var BarsyApiClient
-   * @version 1.0.135
+   * @version 1.0.4
    */
   private $barsy_api_client;
 
