@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VenosT\\Barsy": "src"
+            "VenosT\\Barsy\\": "src"
         }
     },
     "version": "1.0.135"
