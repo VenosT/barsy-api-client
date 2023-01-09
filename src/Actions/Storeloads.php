@@ -48,8 +48,8 @@ class Storeloads{
 
   /**
    * Създаване на нова операция Зареждане от доставчик
-   * @param\VenosT\Barsy\Data\StoreLoads\StoreLoadInputData $store_load null Инфорамция за зареждането
-   * @param\VenosT\Barsy\Data\StoreLoads\StoreLoadInputRowData[] $articles null Информация за артикулите в зареждането
+   * @param \VenosT\Barsy\Data\StoreLoads\StoreLoadInputData $store_load null Инфорамция за зареждането
+   * @param \VenosT\Barsy\Data\StoreLoads\StoreLoadInputRowData[] $articles null Информация за артикулите в зареждането
    * @param string $action_type 'save' 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създаденото зареждане
@@ -84,7 +84,7 @@ class Storeloads{
 
   /**
    * Списък на складови зареждания
-   * @param\VenosT\Barsy\Data\StoreLoads\StoreLoadsListFiltersData $filters null 
+   * @param \VenosT\Barsy\Data\StoreLoads\StoreLoadsListFiltersData $filters null 
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 10000 
@@ -110,8 +110,8 @@ class Storeloads{
   /**
    * Редактиране на съществуваща операция Зареждане от доставчик
    * @param int $id null ID на зареждането, което ще се редактира
-   * @param\VenosT\Barsy\Data\StoreLoads\StoreLoadInputData $store_load null Инфорамция за зареждането
-   * @param\VenosT\Barsy\Data\StoreLoads\StoreLoadInputRowData[] $articles null Информация за артикулите в зареждането
+   * @param \VenosT\Barsy\Data\StoreLoads\StoreLoadInputData $store_load null Инфорамция за зареждането
+   * @param \VenosT\Barsy\Data\StoreLoads\StoreLoadInputRowData[] $articles null Информация за артикулите в зареждането
    * @param string $action_type 'save' 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създаденото зареждане

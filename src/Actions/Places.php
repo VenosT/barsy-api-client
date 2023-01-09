@@ -31,7 +31,7 @@ class Places{
 
   /**
    * Изтегляне на списък с всички места 
-   * @param\VenosT\Barsy\Data\Places\PlacesListFiltersData $filters null Филтриране на списъка
+   * @param \VenosT\Barsy\Data\Places\PlacesListFiltersData $filters null Филтриране на списъка
    * @param array $extra_properties [] Допълнителни данни за всяка маса
    * @param int $offset 0 Начална стойност
    * @param int $length 10000 Брой върнати записи

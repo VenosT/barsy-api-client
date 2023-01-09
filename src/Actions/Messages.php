@@ -31,7 +31,7 @@ class Messages{
 
   /**
    * Изпращане на съобщение до потребители на системата
-   * @param\VenosT\Barsy\Data\Messages\MessagesCreateInputData $values null
+   * @param \VenosT\Barsy\Data\Messages\MessagesCreateInputData $values null
    * @param string $action_type null Изпращане или запис като чернова
    * @param int $id null ID на съобщението
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json

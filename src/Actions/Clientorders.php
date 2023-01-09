@@ -31,8 +31,8 @@ class Clientorders{
 
   /**
    * Създаване на клиентска заявка с всичките й данни
-   * @param\VenosT\Barsy\Data\ClientOrders\ClientOrderInputData $order null 
-   * @param\VenosT\Barsy\Data\ClientOrders\ClientOrderInputRowData[] $rows null 
+   * @param \VenosT\Barsy\Data\ClientOrders\ClientOrderInputData $order null 
+   * @param \VenosT\Barsy\Data\ClientOrders\ClientOrderInputRowData[] $rows null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на направената поръчка
    * @throws BarsyApiClientFault
@@ -67,7 +67,7 @@ class Clientorders{
 
   /**
    * Връща списък на клиентски заявки по подадени критерии
-   * @param\VenosT\Barsy\Data\ClientOrders\ClientOrdersListFiltersData $filters null Филтриране на поръчки
+   * @param \VenosT\Barsy\Data\ClientOrders\ClientOrdersListFiltersData $filters null Филтриране на поръчки
    * @param array $extra_properties [] Допълнителни данни за поръчки
    * @param int $offset 0 начало на списъка
    * @param int $length 10000 дължина на списъка
@@ -144,8 +144,8 @@ class Clientorders{
   /**
    * Актуализиране на клиентска заявка с всичките й данни
    * @param int $client_order_id null Id на клиентската заявка, която трябва да бъде редактирана
-   * @param\VenosT\Barsy\Data\ClientOrders\ClientOrderInputData $order null 
-   * @param\VenosT\Barsy\Data\ClientOrders\ClientOrderInputRowData[] $rows null 
+   * @param \VenosT\Barsy\Data\ClientOrders\ClientOrderInputData $order null 
+   * @param \VenosT\Barsy\Data\ClientOrders\ClientOrderInputRowData[] $rows null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на направената поръчка
    * @throws BarsyApiClientFault

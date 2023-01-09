@@ -48,7 +48,7 @@ class Invoices{
 
   /**
    * Списък с издадени документи 
-   * @param\VenosT\Barsy\Data\Invoices\InvoicesListFiltersData $filters null Налични филтри за списъка
+   * @param \VenosT\Barsy\Data\Invoices\InvoicesListFiltersData $filters null Налични филтри за списъка
    * @param array $extra_properties [] Списък на желаните допълнителни данни за всяка фактура
    * @param int $offset 0 
    * @param int $length 5000 

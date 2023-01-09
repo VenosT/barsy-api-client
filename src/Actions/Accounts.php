@@ -72,9 +72,9 @@ class Accounts{
   /**
    * Създаване на сметка от клиентска заявка
    * @param int $client_order_id null ID на клиентска заявка
-   * @param\VenosT\Barsy\Data\Accounts\AccountInputData $account_props null Опции на сметката, която ще се създава
+   * @param \VenosT\Barsy\Data\Accounts\AccountInputData $account_props null Опции на сметката, която ще се създава
    * @param bool $flag_close_account false Дали сметката директно да се затваря
-   * @param\VenosT\Barsy\Data\Payments\PaymentSaveData[] $payments null Списък с плащанията към сметката (приемат се само ако сметката се затваря)
+   * @param \VenosT\Barsy\Data\Payments\PaymentSaveData[] $payments null Списък с плащанията към сметката (приемат се само ако сметката се затваря)
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадена сметка
    * @throws BarsyApiClientFault
@@ -94,8 +94,8 @@ class Accounts{
 
   /**
    * Създаване на нова сметка и поръчване по нея
-   * @param\VenosT\Barsy\Data\Accounts\AccountInputData $account null Обект със свойства, описващи основните данни на сметката
-   * @param\VenosT\Barsy\Data\Orders\OrderMakeData[] $rows [] Масив от обекти, описващи артикулите в поръчката  -
+   * @param \VenosT\Barsy\Data\Accounts\AccountInputData $account null Обект със свойства, описващи основните данни на сметката
+   * @param \VenosT\Barsy\Data\Orders\OrderMakeData[] $rows [] Масив от обекти, описващи артикулите в поръчката  -
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int Id на създадената сметка
    * @throws BarsyApiClientFault
@@ -114,7 +114,7 @@ class Accounts{
   /**
    * Разделяне на сметката - създава нова и прехвърля желаните артикули в нея, като ги изважда от старата
    * @param int $old_account_id null ID на сметката за разделяне
-   * @param\VenosT\Barsy\Data\Orders\OrderMakeData[] $orders null списък на желаните артикули с техните количества
+   * @param \VenosT\Barsy\Data\Orders\OrderMakeData[] $orders null списък на желаните артикули с техните количества
    * @param int $persons null Колко посетители да бъдат прехвърлени към новата сметка
    * @param int $client_id 1 ID на клиент за новата сметка. Ако не е подаден, ще бъде сложен Анонимен
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
@@ -155,8 +155,8 @@ class Accounts{
 
   /**
    * Списък със сметки
-   * @param\VenosT\Barsy\Data\Accounts\AccountsListFiltersData $filters [] Налични филтри за списъка със сметки
-   * @param\VenosT\Barsy\Data\Accounts\AccountsListExtraPropertiesData $extra_properties [] Искане на допълнителни данни за всяка сметка. Може да се подадат няколко елемента
+   * @param \VenosT\Barsy\Data\Accounts\AccountsListFiltersData $filters [] Налични филтри за списъка със сметки
+   * @param \VenosT\Barsy\Data\Accounts\AccountsListExtraPropertiesData $extra_properties [] Искане на допълнителни данни за всяка сметка. Може да се подадат няколко елемента
    * @param int $offset 0 Номер на ред от който да бъде започнат списъка. Използва се при странициране, когато трябва да се прескочат Х записа
    * @param int $length 1000 Брой върнати редове в една заявка
    * @param string $order_by null Пореждане на резултатите - посочва се име на елемент на сметка (например ref_date)
@@ -276,15 +276,15 @@ class Accounts{
   /**
    * Създаване на нова сметка, поръчване на артикули по нея и опционално затваряне. Връща номер на сметката
    * @param int $account_id null ID на сметката. Ако бъде пропуснато - ще бъде създадена нова сметка
-   * @param\VenosT\Barsy\Data\Accounts\AccountInputData $account null Обект със свойства, описващи основните данни на сметката
-   * @param\VenosT\Barsy\Data\Orders\OrderMakeData[] $orders null Масив от обекти, описващи артикулите в поръчката  -
+   * @param \VenosT\Barsy\Data\Accounts\AccountInputData $account null Обект със свойства, описващи основните данни на сметката
+   * @param \VenosT\Barsy\Data\Orders\OrderMakeData[] $orders null Масив от обекти, описващи артикулите в поръчката  -
    * @param bool $print_receipt false Локален печат на бележка за поръчката
    * @param int $reason_id -1 ID на причина за поръчката (необходимо при откази)
    * @param int $flag_close_account 0 Флаг дали сметката да бъде приключена или оставена отворена
    * @param string $client_code null Код на клиентска карта
-   * @param\VenosT\Barsy\Data\Invoices\InvoiceMakeData $invoice_data null Данни за създаване на фактура към сметката
+   * @param \VenosT\Barsy\Data\Invoices\InvoiceMakeData $invoice_data null Данни за създаване на фактура към сметката
    * @param bool $print_shipment false Флаг за отпечатване на адреса за доствка в бележката
-   * @param\VenosT\Barsy\Data\Payments\PaymentSaveData[] $payments null Списък с данни за плащанията към тази сметка
+   * @param \VenosT\Barsy\Data\Payments\PaymentSaveData[] $payments null Списък с данни за плащанията към тази сметка
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int номер на сметката
    * @throws BarsyApiClientFault
@@ -311,7 +311,7 @@ class Accounts{
   /**
    * Създаване на нова сметка, поръчване на артикули по нея и опционално затваряне. Връща номер на сметката
    * @param int $account_id null ID на сметката. Ако бъде пропуснато - ще бъде създадена нова сметка
-   * @param\VenosT\Barsy\Data\Orders\OrderMakeData[] $orders null Масив от обекти, описващи артикулите в поръчката  -
+   * @param \VenosT\Barsy\Data\Orders\OrderMakeData[] $orders null Масив от обекти, описващи артикулите в поръчката  -
    * @param null $place_code null 
    * @param array $account [] 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
@@ -378,7 +378,7 @@ class Accounts{
    * @param int $account_id null Номер на сметката от която ще се сторнира
    * @param array $article_ids [] Списък от артикул ID-та, които да бъдат сторнирани. Ако не се подаде, всички артикули се сторнират.
    * @param array $payments [] Списък от плащания, които да бъдат възстановени на клиента след сторнирането. Ако не се подаде, счита се че всичко е върнато.
-   * @param\VenosT\Barsy\Data\Accounts\InputStornoData $storno_data null Данни за сторно бележката
+   * @param \VenosT\Barsy\Data\Accounts\InputStornoData $storno_data null Данни за сторно бележката
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int Номер на сторниращата сметка
    * @throws BarsyApiClientFault

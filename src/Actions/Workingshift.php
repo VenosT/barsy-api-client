@@ -31,7 +31,7 @@ class Workingshift{
 
   /**
    * Списък с работни смени спрямо подадени филтри
-   * @param\VenosT\Barsy\Data\WorkSchedule\WorkingShiftListFiltersData $filters null
+   * @param \VenosT\Barsy\Data\WorkSchedule\WorkingShiftListFiltersData $filters null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return array 
    * @throws BarsyApiClientFault

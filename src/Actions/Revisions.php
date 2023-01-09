@@ -31,7 +31,7 @@ class Revisions{
 
   /**
    * Списък на складови зареждания
-   * @param\VenosT\Barsy\Data\Revisions\RevisionsListFiltersData $filters null
+   * @param \VenosT\Barsy\Data\Revisions\RevisionsListFiltersData $filters null
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 10000 

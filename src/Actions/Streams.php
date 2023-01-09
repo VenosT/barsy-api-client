@@ -31,7 +31,7 @@ class Streams{
 
   /**
    * Списък от потоците
-   * @param\VenosT\Barsy\Data\Streams\StreamsListFiltersData $filters []
+   * @param \VenosT\Barsy\Data\Streams\StreamsListFiltersData $filters []
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return mixed 
    * @throws BarsyApiClientFault

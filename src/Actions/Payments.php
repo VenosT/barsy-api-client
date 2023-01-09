@@ -60,7 +60,7 @@ class Payments{
 
   /**
    * Списък с направени плащания
-   * @param\VenosT\Barsy\Data\Payments\PaymentsListFiltersData $filters null Налични филтри за списъка
+   * @param \VenosT\Barsy\Data\Payments\PaymentsListFiltersData $filters null Налични филтри за списъка
    * @param array $extra_properties [] 
    * @param int $offset 0 Начален запис
    * @param int $length 500 максимален брой върнати записи е един рекуест

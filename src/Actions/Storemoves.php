@@ -49,7 +49,7 @@ class Storemoves{
   /**
    * Създаване на прехвърляне от клиентска заявка
    * @param int $client_order_id null 
-   * @param\VenosT\Barsy\Data\StoreMoves\StoreMoveCreateData $storemove null Данни за прехвърлянето
+   * @param \VenosT\Barsy\Data\StoreMoves\StoreMoveCreateData $storemove null Данни за прехвърлянето
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създаденото прехвърляне
    * @throws BarsyApiClientFault
@@ -67,7 +67,7 @@ class Storemoves{
 
   /**
    * Метод за редактиране на прехвърляния между два склада
-   * @param\VenosT\Barsy\Data\StoreMoves\StoreMoveCreateData $storemove null Обект, съдържаш информация за прехвърлянето
+   * @param \VenosT\Barsy\Data\StoreMoves\StoreMoveCreateData $storemove null Обект, съдържаш информация за прехвърлянето
    * @param \\Barsy\Data\StoreMoves\StoreMoveCreateRowData[] $rows null Масив от обекти, съдържащи информация за артикулите
    * @param string $action_type 'save' 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
@@ -88,7 +88,7 @@ class Storemoves{
 
   /**
    * class Storemoves_getlist
-   * @param\VenosT\Barsy\Data\StoreMoves\StoreMovesListFiltersData $filters null
+   * @param \VenosT\Barsy\Data\StoreMoves\StoreMovesListFiltersData $filters null
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 1000 
@@ -114,7 +114,7 @@ class Storemoves{
   /**
    * Метод за създаване а прехвърляния между два склада
    * @param int $id null ID на прехвърлянето. При null, създава ново
-   * @param\VenosT\Barsy\Data\StoreMoves\StoreMoveCreateData $storemove null Обект, съдържаш информация за прехвърлянето
+   * @param \VenosT\Barsy\Data\StoreMoves\StoreMoveCreateData $storemove null Обект, съдържаш информация за прехвърлянето
    * @param \\Barsy\Data\StoreMoves\StoreMoveCreateRowData[] $rows null Масив от обекти, съдържащи информация за артикулите
    * @param string $action_type 'save' 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json

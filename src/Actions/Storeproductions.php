@@ -31,7 +31,7 @@ class Storeproductions{
 
   /**
    * Списък на складови производства
-   * @param\VenosT\Barsy\Data\StoreProductions\StoreProductionsListFiltersData $filters null Филтриране по подадени критерии
+   * @param \VenosT\Barsy\Data\StoreProductions\StoreProductionsListFiltersData $filters null Филтриране по подадени критерии
    * @param array $extra_properties [] Включване на допълнителни данни
    * @param int $offset 0 Начален запис
    * @param int $length 1000 Брой върнати записи

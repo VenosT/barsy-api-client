@@ -31,7 +31,7 @@ class Storeouts{
 
   /**
    * Списък на складови зареждания
-   * @param\VenosT\Barsy\Data\StoreOuts\StoreOutsListFiltersData $filters null
+   * @param \VenosT\Barsy\Data\StoreOuts\StoreOutsListFiltersData $filters null
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 10000 

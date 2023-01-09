@@ -31,7 +31,7 @@ class Categories{
 
   /**
    * Създаване на категория
-   * @param\VenosT\Barsy\Data\Categories\CategoryInputData $cat null
+   * @param \VenosT\Barsy\Data\Categories\CategoryInputData $cat null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадената категория
    * @throws BarsyApiClientFault
@@ -121,7 +121,7 @@ class Categories{
   /**
    * Изтегляне на списък на категории в дървовидна структура
    * @param int $cat_id null ID на начална категория. Ако се пропусна, започва от основната на текущия обект
-   * @param\VenosT\Barsy\Data\Categories\CategoriesTreeExtraProperties $extra_properties null
+   * @param \VenosT\Barsy\Data\Categories\CategoriesTreeExtraProperties $extra_properties null
    * @param bool $client_style false 
    * @param int $menu_id null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
@@ -144,7 +144,7 @@ class Categories{
   /**
    * Редактиране на категория
    * @param int $cat_id null ID на категорията, която се редактира
-   * @param\VenosT\Barsy\Data\Categories\CategoryInputData $cat null
+   * @param \VenosT\Barsy\Data\Categories\CategoryInputData $cat null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault

@@ -31,7 +31,7 @@ class Users{
 
   /**
    * Създаване на нов потребител на системата
-   * @param\VenosT\Barsy\Data\Users\UserInputData $user null Данни за потребителя
+   * @param \VenosT\Barsy\Data\Users\UserInputData $user null Данни за потребителя
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадения потребител
    * @throws BarsyApiClientFault
@@ -144,7 +144,7 @@ class Users{
   /**
    * Създаване
    * @param int $id null 
-   * @param\VenosT\Barsy\Data\Users\UserInputData $values null
+   * @param \VenosT\Barsy\Data\Users\UserInputData $values null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадения/актуализирания потребител на системата
    * @throws BarsyApiClientFault

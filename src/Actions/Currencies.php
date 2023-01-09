@@ -31,7 +31,7 @@ class Currencies{
 
   /**
    * Списък с валути
-   * @param\VenosT\Barsy\Data\Currencies\CurrenciesListFiltersData $filters []
+   * @param \VenosT\Barsy\Data\Currencies\CurrenciesListFiltersData $filters []
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return array 
    * @throws BarsyApiClientFault
