@@ -51,7 +51,7 @@ class PaymentInputData{
 
 /**
  * Допълнително данни за плащането, който ще се ползват за печат, когато ПОС терминал няма вграден принтер
- * @var \Barsy\Lib\PosTerminal\Data\PosTransactionPrintData
+ * @var \VenosT\Barsy\Lib\PosTerminal\Data\PosTransactionPrintData
  */
   public $payment_print_data;
 
@@ -81,7 +81,7 @@ class PaymentInputData{
 
 /**
  * Данни за бележката на сторно плащането
- * @var \Barsy\Data\Accounts\InputStornoData
+ * @var \VenosT\Barsy\Data\Accounts\InputStornoData
  */
   public $receipt_data;
 

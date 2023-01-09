@@ -35,7 +35,7 @@ class Modificators{
    * @param int $order 1 тип на подреждането на резултатите (1=азбучен ред, 2=най-новите първи, 3=най-старите първи)
    * @param int $offset 0 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Modificators\ModificatorData[]
+   * @return\VenosT\Barsy\Data\Modificators\ModificatorData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Modificators

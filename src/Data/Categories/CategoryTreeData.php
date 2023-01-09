@@ -21,7 +21,7 @@ class CategoryTreeData{
 
 /**
  * 
- * @var \Barsy\Data\Articles\ArticleData
+ * @var \VenosT\Barsy\Data\Articles\ArticleData
  */
   public $articles;
 

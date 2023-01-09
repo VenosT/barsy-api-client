@@ -31,13 +31,13 @@ class Revisions{
 
   /**
    * Списък на складови зареждания
-   * @param \Barsy\Data\Revisions\RevisionsListFiltersData $filters null
+   * @param\VenosT\Barsy\Data\Revisions\RevisionsListFiltersData $filters null
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 10000 
    * @param string $order_by null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Revisions\RevisionData[]
+   * @return\VenosT\Barsy\Data\Revisions\RevisionData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Revisions

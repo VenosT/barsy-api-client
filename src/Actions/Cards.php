@@ -35,7 +35,7 @@ class Cards{
    * @param \\Barsy\Data\Cards\CardApplyArticleInputData[] $articles [] Списък с артикули
    * @param int $client_id 1 Клиент ID
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Cards\CardApplyResponse
+   * @return\VenosT\Barsy\Data\Cards\CardApplyResponse
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Cards

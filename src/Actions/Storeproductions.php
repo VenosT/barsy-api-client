@@ -31,13 +31,13 @@ class Storeproductions{
 
   /**
    * Списък на складови производства
-   * @param \Barsy\Data\StoreProductions\StoreProductionsListFiltersData $filters null Филтриране по подадени критерии
+   * @param\VenosT\Barsy\Data\StoreProductions\StoreProductionsListFiltersData $filters null Филтриране по подадени критерии
    * @param array $extra_properties [] Включване на допълнителни данни
    * @param int $offset 0 Начален запис
    * @param int $length 1000 Брой върнати записи
    * @param string $order_by null Подреждане по
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\StoreProductions\StoreProductionData
+   * @return\VenosT\Barsy\Data\StoreProductions\StoreProductionData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Storeproductions

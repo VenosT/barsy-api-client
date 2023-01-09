@@ -15,7 +15,7 @@ class CategoryInputData{
 
 /**
  * Публично име на категорията
- * @var \Barsy\Data\Languages\MultiLanguageData
+ * @var \VenosT\Barsy\Data\Languages\MultiLanguageData
  */
   public $cat_name_public;
 
@@ -33,7 +33,7 @@ class CategoryInputData{
 
 /**
  * Свободен текст описание
- * @var \Barsy\Data\Languages\MultiLanguageData
+ * @var \VenosT\Barsy\Data\Languages\MultiLanguageData
  */
   public $description;
 

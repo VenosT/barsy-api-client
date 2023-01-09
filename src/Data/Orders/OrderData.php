@@ -45,13 +45,13 @@ class OrderData{
 
 /**
  * Списък с модификатори за този артикул
- * @var \Barsy\Data\Modificators\ModificatorData
+ * @var \VenosT\Barsy\Data\Modificators\ModificatorData
  */
   public $modificators;
 
 /**
  * Списък с атрибутите за този артикул
- * @var \Barsy\Data\Articles\ArticleAttributesData
+ * @var \VenosT\Barsy\Data\Articles\ArticleAttributesData
  */
   public $article_attributes;
 

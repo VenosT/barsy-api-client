@@ -54,7 +54,7 @@ class Edocs{
    * Изтегляне на документ в електронен вид по подаден SID
    * @param int $doc_sid null SID на документа
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\eDocs\eDocData Обект от данни за документ
+   * @return\VenosT\Barsy\Data\eDocs\eDocData Обект от данни за документ
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Edocs
@@ -71,7 +71,7 @@ class Edocs{
    * Изтегляне на публичен каталог от външни системи
    * @param  $picture_content null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Categories\CategoryFullTreeData Списък от данни за документ
+   * @return\VenosT\Barsy\Data\Categories\CategoryFullTreeData Списък от данни за документ
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Edocs
@@ -88,7 +88,7 @@ class Edocs{
    * Взема списък от документи. Изисква клиентска ауторизация, тъй като е предназначен за използване от отдалечени системи
    * @param string $after_date null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\eDocs\eDocShortData[] Масив от данни за документи
+   * @return\VenosT\Barsy\Data\eDocs\eDocShortData[] Масив от данни за документи
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Edocs
@@ -105,7 +105,7 @@ class Edocs{
    * Изтегляне на документ от външни системи 
    * @param int $doc_id null ID на документ
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\eDocs\eDocData Списък от данни за документ
+   * @return\VenosT\Barsy\Data\eDocs\eDocData Списък от данни за документ
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Edocs

@@ -73,7 +73,7 @@ class Pricelists{
    * Взимане на статуса на избраното ценово праволо
    * @param  $pricelist_id null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Pricelists\PricelistStatusData Информация за статуса на ценовото правило
+   * @return\VenosT\Barsy\Data\Pricelists\PricelistStatusData Информация за статуса на ценовото правило
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Pricelists
@@ -102,7 +102,7 @@ class Pricelists{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Pricelists
@@ -147,7 +147,7 @@ class Pricelists{
   /**
    * Записване на темплейти за имена на артикули, за които да важи това ценово правило
    * @param int $id null ID на ценово правило
-   * @param \Barsy\Data\Pricelists\PricelistArticleTemplateData[] $rows null Списък с темплейти за имената на артикули
+   * @param\VenosT\Barsy\Data\Pricelists\PricelistArticleTemplateData[] $rows null Списък с темплейти за имената на артикули
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault
@@ -166,7 +166,7 @@ class Pricelists{
   /**
    * Записване на артикули към текущо ценово правило
    * @param int $id null ID на ценовото правило
-   * @param \Barsy\Data\Pricelists\PricelistArticleData[] $rows null Списък с ID-та на артикули
+   * @param\VenosT\Barsy\Data\Pricelists\PricelistArticleData[] $rows null Списък с ID-та на артикули
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault
@@ -223,7 +223,7 @@ class Pricelists{
   /**
    * Записване на клиентски групи, за които да важи това ценово правило
    * @param int $id null ID на ценово правило
-   * @param \Barsy\Data\Pricelists\PricelistClientGroupData[] $rows null 
+   * @param\VenosT\Barsy\Data\Pricelists\PricelistClientGroupData[] $rows null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault
@@ -242,7 +242,7 @@ class Pricelists{
   /**
    * Записване на клиенти, за които да важи това ценово правило
    * @param int $id null ID на ценово правило
-   * @param \Barsy\Data\Pricelists\PricelistClientData[] $rows null 
+   * @param\VenosT\Barsy\Data\Pricelists\PricelistClientData[] $rows null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault
@@ -280,7 +280,7 @@ class Pricelists{
   /**
    * Записване на клиентски групи, за които да важи това ценово правило
    * @param int $id null ID на ценово правило
-   * @param \Barsy\Data\Pricelists\PricelistSubscriptionData[] $rows null 
+   * @param\VenosT\Barsy\Data\Pricelists\PricelistSubscriptionData[] $rows null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault
@@ -299,7 +299,7 @@ class Pricelists{
   /**
    * Записване на клиентски групи, за които да важи това ценово правило
    * @param int $id null ID на ценово правило
-   * @param \Barsy\Data\Pricelists\PricelistClientData[] $rows null 
+   * @param\VenosT\Barsy\Data\Pricelists\PricelistClientData[] $rows null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault
@@ -320,7 +320,7 @@ class Pricelists{
    * @param int $pricelist_id null 
    * @param int $status null ID на желан сатус (1=активиране,0=деактивиране)
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Pricelists\PricelistStatusData Информация за статуса на ценотовото правило
+   * @return\VenosT\Barsy\Data\Pricelists\PricelistStatusData Информация за статуса на ценотовото правило
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Pricelists

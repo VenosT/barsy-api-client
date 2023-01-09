@@ -31,7 +31,7 @@ class Roles{
 
   /**
    * class Roles_getlist
-   * @param \Barsy\Data\Roles\RolesListFiltersData $filters null
+   * @param\VenosT\Barsy\Data\Roles\RolesListFiltersData $filters null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return array 
    * @throws BarsyApiClientFault

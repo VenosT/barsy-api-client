@@ -195,7 +195,7 @@ class Invoice{
 
 /**
  * Данни за клиента
- * @var \Barsy\Data\Clients\ClientData
+ * @var \VenosT\Barsy\Data\Clients\ClientData
  */
   public $client;
 
@@ -213,19 +213,19 @@ class Invoice{
 
 /**
  * Данни за банковата сметка
- * @var \Barsy\Services\Invoices\InvoiceBankAccountService
+ * @var \VenosT\Barsy\Services\Invoices\InvoiceBankAccountService
  */
   public $bank_account;
 
 /**
  * Данни за получателя на фактурата
- * @var \Barsy\Services\Invoices\InvoiceCompanyService
+ * @var \VenosT\Barsy\Services\Invoices\InvoiceCompanyService
  */
   public $receiver;
 
 /**
  * Данни за издателя на фактурата
- * @var \Barsy\Services\Invoices\InvoiceCompanyService
+ * @var \VenosT\Barsy\Services\Invoices\InvoiceCompanyService
  */
   public $seller;
 

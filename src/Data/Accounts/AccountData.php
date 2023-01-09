@@ -213,7 +213,7 @@ class AccountData{
 
 /**
  * Данни за доставка
- * @var \Barsy\Data\DeliveryAddress\DeliveryAddressData
+ * @var \VenosT\Barsy\Data\DeliveryAddress\DeliveryAddressData
  */
   public $delivery_address;
 
@@ -249,7 +249,7 @@ class AccountData{
 
 /**
  * Списък с поръчките към сметката (ако са поискани)
- * @var \Barsy\Data\Orders\OrderData
+ * @var \VenosT\Barsy\Data\Orders\OrderData
  */
   public $orders;
 
@@ -315,7 +315,7 @@ class AccountData{
 
 /**
  * Списък с плащанията към сметката  (ако са поискани)
- * @var \Barsy\Data\Devices\ReceiptPaymentData
+ * @var \VenosT\Barsy\Data\Devices\ReceiptPaymentData
  */
   public $payments;
 

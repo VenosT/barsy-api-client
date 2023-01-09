@@ -48,7 +48,7 @@ class Articles{
 
   /**
    * Създаване на артикул с всички негови атрибути
-   * @param \Barsy\Data\Articles\ArticleInputData $article null
+   * @param\VenosT\Barsy\Data\Articles\ArticleInputData $article null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадения артикул
    * @throws BarsyApiClientFault
@@ -85,7 +85,7 @@ class Articles{
    * @param int $offset 0 Номер на ред от който да бъде започнат списъка. Използва се при странициране, когато трябва да се прескочат Х записа
    * @param int $length 1000 Брой върнати редове в една заявка
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Articles\ArticlesListData
+   * @return\VenosT\Barsy\Data\Articles\ArticlesListData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Articles
@@ -103,13 +103,13 @@ class Articles{
 
   /**
    * Универсален метод за итегляне на списък с артикули
-   * @param \Barsy\Data\Articles\ArticlesListFiltersData $filters null Налични филтри за списъка с артикули
-   * @param \Barsy\Data\Articles\ArticlesListExtraPropertiesData $extra_properties null Искане на допълнителни данни за всеки артикул. Може да се подадат няколко елемента
+   * @param\VenosT\Barsy\Data\Articles\ArticlesListFiltersData $filters null Налични филтри за списъка с артикули
+   * @param\VenosT\Barsy\Data\Articles\ArticlesListExtraPropertiesData $extra_properties null Искане на допълнителни данни за всеки артикул. Може да се подадат няколко елемента
    * @param int $offset 0 Номер на ред от който да бъде започнат списъка. Използва се при странициране, когато трябва да се прескочат Х записа
    * @param int $length 1000 Брой върнати редове в една заявка
    * @param string $order_by null Пореждане на резултатите - посочва се име на елемент на артикул (например article_name)
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Articles\ArticleData[] Списък от артикули с данни за тях според исканите ($extra_properties)
+   * @return\VenosT\Barsy\Data\Articles\ArticleData[] Списък от артикули с данни за тях според исканите ($extra_properties)
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Articles
@@ -129,10 +129,10 @@ class Articles{
   /**
    * Подробни данни да конкретен артикул
    * @param int $article_id null ID на желания артикул
-   * @param \Barsy\Data\Articles\ArticlesListExtraPropertiesData $extra_properties []
+   * @param\VenosT\Barsy\Data\Articles\ArticlesListExtraPropertiesData $extra_properties []
    * @param  $filters [] 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Articles\ArticleData Данни за тях според исканите ($extra_properties)
+   * @return\VenosT\Barsy\Data\Articles\ArticleData Данни за тях според исканите ($extra_properties)
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Articles
@@ -169,7 +169,7 @@ class Articles{
   /**
    * Записване на дадения артикул към избрани ценови правила. Ако има текущо избрани, те се заменя с новите
    * @param int $id null ID на дадения артикул
-   * @param \Barsy\Data\Articles\ArticlePricelistData[] $rows null Списък от ценови правила, към който да бъде включен дадения артикул.
+   * @param\VenosT\Barsy\Data\Articles\ArticlePricelistData[] $rows null Списък от ценови правила, към който да бъде включен дадения артикул.
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int няма
    * @throws BarsyApiClientFault
@@ -188,8 +188,8 @@ class Articles{
   /**
    * class Articles_save_recipe
    * @param int $id null ID на артикул, на който се задава рецепта
-   * @param \Barsy\Data\Articles\ArticleRecipeRowData[] $rows null Масив от артикули, участващи в рецептата
-   * @param \Barsy\Data\Articles\ArticleRecipeData $values null Допълнителни данни за рецептата
+   * @param\VenosT\Barsy\Data\Articles\ArticleRecipeRowData[] $rows null Масив от артикули, участващи в рецептата
+   * @param\VenosT\Barsy\Data\Articles\ArticleRecipeData $values null Допълнителни данни за рецептата
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault
@@ -216,7 +216,7 @@ class Articles{
    * @param int $length 50 брой записи на едни рекуест
    * @param int $page 0 номер на страница
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Articles\ArticleData[]
+   * @return\VenosT\Barsy\Data\Articles\ArticleData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Articles
@@ -261,7 +261,7 @@ class Articles{
   /**
    * Актуализиране на артикул с всички негови атрибути
    * @param int $article_id null 
-   * @param \Barsy\Data\Articles\ArticleInputData $article null
+   * @param\VenosT\Barsy\Data\Articles\ArticleInputData $article null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault

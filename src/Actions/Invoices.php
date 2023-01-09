@@ -33,7 +33,7 @@ class Invoices{
    * Изтегляне на данни за дадена фактура. При смяна на тип "изход" може да се получи директно във вариант за печат 
    * @param int $inv_sid null ID на фактурата
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Invoices\InvoiceData
+   * @return\VenosT\Barsy\Data\Invoices\InvoiceData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Invoices
@@ -48,7 +48,7 @@ class Invoices{
 
   /**
    * Списък с издадени документи 
-   * @param \Barsy\Data\Invoices\InvoicesListFiltersData $filters null Налични филтри за списъка
+   * @param\VenosT\Barsy\Data\Invoices\InvoicesListFiltersData $filters null Налични филтри за списъка
    * @param array $extra_properties [] Списък на желаните допълнителни данни за всяка фактура
    * @param int $offset 0 
    * @param int $length 5000 
@@ -75,7 +75,7 @@ class Invoices{
    * @param int $copy 0 
    * @param array $extra_elements null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Invoices\InvoiceData
+   * @return\VenosT\Barsy\Data\Invoices\InvoiceData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Invoices

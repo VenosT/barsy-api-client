@@ -31,7 +31,7 @@ class Categories{
 
   /**
    * Създаване на категория
-   * @param \Barsy\Data\Categories\CategoryInputData $cat null
+   * @param\VenosT\Barsy\Data\Categories\CategoryInputData $cat null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадената категория
    * @throws BarsyApiClientFault
@@ -54,7 +54,7 @@ class Categories{
    * @param int $picture_content null Флаг да бъдат върнати картинките като inline съдържание
    * @param int $articles_lazy_load_mode 0 Режим за невръщане на артикулите по категории: 0: Винаги изключен, 1: Винаги включен, 2: Определя се спрямо настройка-лимит за брой артиули за дървото
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Categories\CategoryFullTreeData
+   * @return\VenosT\Barsy\Data\Categories\CategoryFullTreeData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Categories
@@ -74,7 +74,7 @@ class Categories{
   /**
    * Връща всички категории в дървовиден режим и прилежащите им артикули и модификатори, като включва само ариткулите, обявени за публични
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Categories\CategoryFullTreeData
+   * @return\VenosT\Barsy\Data\Categories\CategoryFullTreeData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Categories
@@ -89,7 +89,7 @@ class Categories{
   /**
    * Изтеляне на списък на категории в 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Categories\CategoryData[] Масив от категории
+   * @return\VenosT\Barsy\Data\Categories\CategoryData[] Масив от категории
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Categories
@@ -105,7 +105,7 @@ class Categories{
    * Информация за конкретна категория
    * @param int $cat_id null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Categories\CategoryData
+   * @return\VenosT\Barsy\Data\Categories\CategoryData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Categories
@@ -121,11 +121,11 @@ class Categories{
   /**
    * Изтегляне на списък на категории в дървовидна структура
    * @param int $cat_id null ID на начална категория. Ако се пропусна, започва от основната на текущия обект
-   * @param \Barsy\Data\Categories\CategoriesTreeExtraProperties $extra_properties null
+   * @param\VenosT\Barsy\Data\Categories\CategoriesTreeExtraProperties $extra_properties null
    * @param bool $client_style false 
    * @param int $menu_id null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Categories\CategoryFullTreeData[] Рекурсивен масив от обекти с данните за категории
+   * @return\VenosT\Barsy\Data\Categories\CategoryFullTreeData[] Рекурсивен масив от обекти с данните за категории
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Categories
@@ -144,7 +144,7 @@ class Categories{
   /**
    * Редактиране на категория
    * @param int $cat_id null ID на категорията, която се редактира
-   * @param \Barsy\Data\Categories\CategoryInputData $cat null
+   * @param\VenosT\Barsy\Data\Categories\CategoryInputData $cat null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault

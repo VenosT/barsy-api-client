@@ -15,7 +15,7 @@ class PlaceAccountsData{
 
 /**
  * 
- * @var \Barsy\Data\Accounts\AccountData
+ * @var \VenosT\Barsy\Data\Accounts\AccountData
  */
   public $accounts;
 

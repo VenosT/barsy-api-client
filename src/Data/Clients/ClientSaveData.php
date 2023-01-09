@@ -213,7 +213,7 @@ class ClientSaveData{
 
 /**
  * Адрес за доставка
- * @var \Barsy\Data\DeliveryAddress\DeliveryAddressData
+ * @var \VenosT\Barsy\Data\DeliveryAddress\DeliveryAddressData
  */
   public $delivery_address;
 

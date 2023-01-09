@@ -31,7 +31,7 @@ class Suppliers{
 
   /**
    * Създаване на нов доставчик. Връща ID на доставчика
-   * @param \Barsy\Data\Suppliers\SupplierData $supplier null Данни за доставчика. Записват се само подадените
+   * @param\VenosT\Barsy\Data\Suppliers\SupplierData $supplier null Данни за доставчика. Записват се само подадените
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault
@@ -115,7 +115,7 @@ class Suppliers{
   /**
    * Записване на артикулите към конкретен доставчик
    * @param int $id null supplier_id
-   * @param \Barsy\Data\Suppliers\SupplierArticlesData[] $rows null Списък с артикулите към доставчика
+   * @param\VenosT\Barsy\Data\Suppliers\SupplierArticlesData[] $rows null Списък с артикулите към доставчика
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault
@@ -134,7 +134,7 @@ class Suppliers{
   /**
    * Редактиране на доставчик.
    * @param int $supplier_id null ID на доставчик
-   * @param \Barsy\Data\Suppliers\SupplierData $supplier null Данни за доставчика. Записват се само подадените
+   * @param\VenosT\Barsy\Data\Suppliers\SupplierData $supplier null Данни за доставчика. Записват се само подадените
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return mixed 
    * @throws BarsyApiClientFault

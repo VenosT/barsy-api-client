@@ -31,9 +31,9 @@ class Paymentmethods{
 
   /**
    * Получаване на наличните методи за плащане, разрешени за текущия потребител
-   * @param \Barsy\Data\PaymentMethods\PaymentMethodsListFiltersData $filters []
+   * @param\VenosT\Barsy\Data\PaymentMethods\PaymentMethodsListFiltersData $filters []
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\PaymentMethods\PaymentMethodData[]
+   * @return\VenosT\Barsy\Data\PaymentMethods\PaymentMethodData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Paymentmethods

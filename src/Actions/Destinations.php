@@ -31,9 +31,9 @@ class Destinations{
 
   /**
    * Списък с държавите
-   * @param \Barsy\Data\Destinations\CountriesFiltersData $filters null Налични филтри
+   * @param\VenosT\Barsy\Data\Destinations\CountriesFiltersData $filters null Налични филтри
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Destinations\CountryData[]
+   * @return\VenosT\Barsy\Data\Destinations\CountryData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Destinations

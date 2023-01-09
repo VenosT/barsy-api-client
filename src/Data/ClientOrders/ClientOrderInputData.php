@@ -21,7 +21,7 @@ class ClientOrderInputData{
 
 /**
  * Данни за нов клиент - ще бъде създаден или преизползван (ако съществува според настройката за уникалност на клиентите)
- * @var \Barsy\Data\Clients\ClientData
+ * @var \VenosT\Barsy\Data\Clients\ClientData
  */
   public $client;
 
@@ -69,7 +69,7 @@ class ClientOrderInputData{
 
 /**
  * Адрес за доставка
- * @var \Barsy\Data\DeliveryAddress\DeliveryAddressData
+ * @var \VenosT\Barsy\Data\DeliveryAddress\DeliveryAddressData
  */
   public $delivery_address;
 

@@ -153,7 +153,7 @@ class InvoiceData{
 
 /**
  * Данни за клиента
- * @var \Barsy\Data\Clients\ClientData
+ * @var \VenosT\Barsy\Data\Clients\ClientData
  */
   public $client;
 

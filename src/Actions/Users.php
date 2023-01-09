@@ -31,7 +31,7 @@ class Users{
 
   /**
    * Създаване на нов потребител на системата
-   * @param \Barsy\Data\Users\UserInputData $user null Данни за потребителя
+   * @param\VenosT\Barsy\Data\Users\UserInputData $user null Данни за потребителя
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадения потребител
    * @throws BarsyApiClientFault
@@ -50,7 +50,7 @@ class Users{
    * Изтегляне на данни за потребител на системата
    * @param string $user_name null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Users\UserData
+   * @return\VenosT\Barsy\Data\Users\UserData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Users
@@ -66,7 +66,7 @@ class Users{
   /**
    * Връща данни за текущия потребител
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Users\UserCurrentData
+   * @return\VenosT\Barsy\Data\Users\UserCurrentData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Users
@@ -107,7 +107,7 @@ class Users{
    * Изтегляне на данни за потребител на системата
    * @param  $user_id null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Users\UserData
+   * @return\VenosT\Barsy\Data\Users\UserData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Users
@@ -144,7 +144,7 @@ class Users{
   /**
    * Създаване
    * @param int $id null 
-   * @param \Barsy\Data\Users\UserInputData $values null
+   * @param\VenosT\Barsy\Data\Users\UserInputData $values null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на създадения/актуализирания потребител на системата
    * @throws BarsyApiClientFault

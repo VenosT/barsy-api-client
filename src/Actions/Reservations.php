@@ -31,8 +31,8 @@ class Reservations{
 
   /**
    * Създаване на нова резервация
-   * @param \Barsy\Data\Reservations\ReservationSaveData $values null
-   * @param \Barsy\Data\Reservations\ReservationArticleSaveData[] $rows null Артикули към резервацията
+   * @param\VenosT\Barsy\Data\Reservations\ReservationSaveData $values null
+   * @param\VenosT\Barsy\Data\Reservations\ReservationArticleSaveData[] $rows null Артикули към резервацията
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault
@@ -50,7 +50,7 @@ class Reservations{
 
   /**
    * Списък с резервации
-   * @param \Barsy\Data\Reservations\ReservationsListFiltersData $filters null
+   * @param\VenosT\Barsy\Data\Reservations\ReservationsListFiltersData $filters null
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return array 
    * @throws BarsyApiClientFault

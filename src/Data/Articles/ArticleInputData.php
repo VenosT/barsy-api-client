@@ -21,7 +21,7 @@ class ArticleInputData{
 
 /**
  * Публично име на артикул. Мултиезично.
- * @var \Barsy\Data\Languages\MultiLanguageData
+ * @var \VenosT\Barsy\Data\Languages\MultiLanguageData
  */
   public $article_name_public_ml;
 
@@ -207,7 +207,7 @@ class ArticleInputData{
 
 /**
  * Списък от характеристики към артикула
- * @var \Barsy\Data\ArticleDetails\ArticleDetailInputData
+ * @var \VenosT\Barsy\Data\ArticleDetails\ArticleDetailInputData
  */
   public $details;
 

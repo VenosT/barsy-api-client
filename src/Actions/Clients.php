@@ -77,7 +77,7 @@ class Clients{
 
   /**
    * Създаване на нов клиент. Връща ID на клиента
-   * @param \Barsy\Data\Clients\ClientSaveData $client null Данни за клиента. Записват се само подадените
+   * @param\VenosT\Barsy\Data\Clients\ClientSaveData $client null Данни за клиента. Записват се само подадените
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 
    * @throws BarsyApiClientFault
@@ -94,12 +94,12 @@ class Clients{
 
   /**
    * Връща списък с клиентски групи
-   * @param \Barsy\Data\Clients\ClientsGroupsListFiltersData $filters null Филтри
+   * @param\VenosT\Barsy\Data\Clients\ClientsGroupsListFiltersData $filters null Филтри
    * @param array $extra_properties [] допълнителни пропъртита
    * @param int $offset 0 
    * @param int $length 1000 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\ClientGroups\ClientGroupData[]
+   * @return\VenosT\Barsy\Data\ClientGroups\ClientGroupData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Clients
@@ -117,12 +117,12 @@ class Clients{
 
   /**
    * Връща списък от клиенти по зададените критерии
-   * @param \Barsy\Data\Clients\ClientsListFiltersData $filters null Филтриране на резултатите по зададени критерии
+   * @param\VenosT\Barsy\Data\Clients\ClientsListFiltersData $filters null Филтриране на резултатите по зададени критерии
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 1000 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Clients\ClientData[]
+   * @return\VenosT\Barsy\Data\Clients\ClientData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Clients
@@ -169,7 +169,7 @@ class Clients{
    * @param int $delete_check 1 
    * @param array $extra_properties [] 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Clients\ClientData
+   * @return\VenosT\Barsy\Data\Clients\ClientData
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Clients
@@ -187,7 +187,7 @@ class Clients{
   /**
    * Актуализиране на данните на клиент
    * @param int $client_id null ID на клиента
-   * @param \Barsy\Data\Clients\ClientSaveData $client null Нови данни за клиента. Ще бъдат актуализирани само подадените.
+   * @param\VenosT\Barsy\Data\Clients\ClientSaveData $client null Нови данни за клиента. Ще бъдат актуализирани само подадените.
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int ID на клиента
    * @throws BarsyApiClientFault

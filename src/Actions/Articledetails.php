@@ -33,7 +33,7 @@ class Articledetails{
    * Изтегляне на характеристики на конкретен артикул
    * @param int $article_id null ID на артикул, чийто характеристики да бъдат върнати
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\ArticleDetails\ArticleDetailData[] Списък от характеристики на желания артикул
+   * @return\VenosT\Barsy\Data\ArticleDetails\ArticleDetailData[] Списък от характеристики на желания артикул
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Articledetails
@@ -68,7 +68,7 @@ class Articledetails{
   /**
    * Запис на характеристика към артикул
    * @param int $id null ID на артикул, за който се отнасят характеристиките
-   * @param \Barsy\Data\ArticleDetails\ArticleDetailInputData[] $rows null Списък с характеристиките
+   * @param\VenosT\Barsy\Data\ArticleDetails\ArticleDetailInputData[] $rows null Списък с характеристиките
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return int 1
    * @throws BarsyApiClientFault

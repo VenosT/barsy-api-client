@@ -39,7 +39,7 @@ class PaymentPrintData{
 
 /**
  * 
- * @var \Barsy\Lib\PosTerminal\Data\PosTransactionPrintData
+ * @var \VenosT\Barsy\Lib\PosTerminal\Data\PosTransactionPrintData
  */
   public $payment_print_data;
 

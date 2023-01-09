@@ -31,13 +31,13 @@ class Storeouts{
 
   /**
    * Списък на складови зареждания
-   * @param \Barsy\Data\StoreOuts\StoreOutsListFiltersData $filters null
+   * @param\VenosT\Barsy\Data\StoreOuts\StoreOutsListFiltersData $filters null
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 10000 
    * @param string $order_by null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\StoreOuts\StoreOutData[]
+   * @return\VenosT\Barsy\Data\StoreOuts\StoreOutData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Storeouts

@@ -15,7 +15,7 @@ class AccountInputData{
 
 /**
  * Данни за клиента (ако е нов или трябва да бъде разпознат)
- * @var \Barsy\Data\Clients\ClientData
+ * @var \VenosT\Barsy\Data\Clients\ClientData
  */
   public $client;
 
@@ -57,7 +57,7 @@ class AccountInputData{
 
 /**
  * Адрес за доставка
- * @var \Barsy\Data\DeliveryAddress\DeliveryAddressData
+ * @var \VenosT\Barsy\Data\DeliveryAddress\DeliveryAddressData
  */
   public $delivery_address;
 

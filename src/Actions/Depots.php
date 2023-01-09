@@ -48,7 +48,7 @@ class Depots{
 
   /**
    * Връща списък от складове, групирани по търговски обекти
-   * @param \Barsy\Data\Depots\DepotsListFiltersData $filters []
+   * @param\VenosT\Barsy\Data\Depots\DepotsListFiltersData $filters []
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
    * @return array 
    * @throws BarsyApiClientFault
@@ -65,9 +65,9 @@ class Depots{
 
   /**
    * Връща списък от складове за текущия търговски обект
-   * @param \Barsy\Data\Depots\DepotsListFiltersData $filters []
+   * @param\VenosT\Barsy\Data\Depots\DepotsListFiltersData $filters []
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Depots\DepotType[]
+   * @return\VenosT\Barsy\Data\Depots\DepotType[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Depots
@@ -82,9 +82,9 @@ class Depots{
 
   /**
    * Връща списък от складове
-   * @param \Barsy\Data\Depots\DepotsListFiltersData $filters []
+   * @param\VenosT\Barsy\Data\Depots\DepotsListFiltersData $filters []
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Depots\DepotType[]
+   * @return\VenosT\Barsy\Data\Depots\DepotType[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Depots

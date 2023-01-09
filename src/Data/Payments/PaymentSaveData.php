@@ -51,7 +51,7 @@ class PaymentSaveData{
 
 /**
  * Списък от редове за печат след регистиране на плащането във фискалния бон
- * @var \Barsy\Data\Devices\ReceiptEndlineData
+ * @var \VenosT\Barsy\Data\Devices\ReceiptEndlineData
  */
   public $payment_print_lines;
 
@@ -81,7 +81,7 @@ class PaymentSaveData{
 
 /**
  * Данни за бележката на сторно плащането
- * @var \Barsy\Data\Accounts\InputStornoData
+ * @var \VenosT\Barsy\Data\Accounts\InputStornoData
  */
   public $receipt_data;
 
@@ -177,7 +177,7 @@ class PaymentSaveData{
 
 /**
  * 
- * @var \Barsy\Data\Devices\StornoData
+ * @var \VenosT\Barsy\Data\Devices\StornoData
  */
   public $storno_data;
 

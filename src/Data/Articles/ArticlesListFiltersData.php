@@ -249,7 +249,7 @@ class ArticlesListFiltersData{
 
 /**
  * Филтър по категория
- * @var \Barsy\Filters\Articles\ArticlesListFilter_byCategory
+ * @var \VenosT\Barsy\Filters\Articles\ArticlesListFilter_byCategory
  */
   public $cat_id;
 

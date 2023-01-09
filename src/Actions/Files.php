@@ -35,7 +35,7 @@ class Files{
    * @param string $obj_id null ID на съответния обект
    * @param string $obj_property 'PICTURE' Под тип файлове към съответния обект (PICTURE)
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Files\FileData[] Списък от налични файлове към съответния обект и група
+   * @return\VenosT\Barsy\Data\Files\FileData[] Списък от налични файлове към съответния обект и група
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Files
@@ -60,7 +60,7 @@ class Files{
    * @param null $height null Максимална височина в пиксели (само ако е картинка или икона за друг файл)
    * @param null $mode null Тип оразмеряване (ако е картинка) (thumb,fix,auto)
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Files\FileData[]
+   * @return\VenosT\Barsy\Data\Files\FileData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Files
@@ -86,7 +86,7 @@ class Files{
    * @param string $obj_id null ID на обекта, за който се качва
    * @param string $obj_property null Подтип на обекта, за който се качва (PICTURE)
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Files\FileData[] Масив от данни за всеки файл
+   * @return\VenosT\Barsy\Data\Files\FileData[] Масив от данни за всеки файл
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Files

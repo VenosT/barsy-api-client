@@ -45,7 +45,7 @@ class Reports{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Reports
@@ -86,7 +86,7 @@ class Reports{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Reports
@@ -127,7 +127,7 @@ class Reports{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Reports
@@ -168,7 +168,7 @@ class Reports{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Reports
@@ -209,7 +209,7 @@ class Reports{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Reports
@@ -391,7 +391,7 @@ class Reports{
    * @param null $values null #ignore
    * @param int $copies 1 #ignore
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
+   * @return\VenosT\Barsy\Lib\eStruct\Data\eStructListResultData Обект с данни за резултатите
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Reports

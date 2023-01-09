@@ -32,7 +32,7 @@ class Amounttypes{
   /**
    * Връща списък с типовете количества за системата
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\AmountTypes\AmountTypeData[]
+   * @return\VenosT\Barsy\Data\AmountTypes\AmountTypeData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Amounttypes

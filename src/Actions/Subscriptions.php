@@ -32,7 +32,7 @@ class Subscriptions{
   /**
    * Списък от абонаменти
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Subscriptions\SubscriptionData[]
+   * @return\VenosT\Barsy\Data\Subscriptions\SubscriptionData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Subscriptions

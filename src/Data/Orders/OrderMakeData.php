@@ -39,19 +39,19 @@ class OrderMakeData{
 
 /**
  * 
- * @var \Barsy\Data\Modificators\ModificatorInputData
+ * @var \VenosT\Barsy\Data\Modificators\ModificatorInputData
  */
   public $modificators;
 
 /**
  * 
- * @var \Barsy\Data\Articles\ArticleAttributesSimpleData
+ * @var \VenosT\Barsy\Data\Articles\ArticleAttributesSimpleData
  */
   public $article_attributes;
 
 /**
  * Комбинирани артикули
- * @var \Barsy\Data\Articles\ArticleSupplementData
+ * @var \VenosT\Barsy\Data\Articles\ArticleSupplementData
  */
   public $supplements;
 

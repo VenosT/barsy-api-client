@@ -32,7 +32,7 @@ class Barsys{
   /**
    * Връща информация за текущия търговски обект
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Barsys\BarsyCurrentData информация за текущия търговски обект
+   * @return\VenosT\Barsy\Data\Barsys\BarsyCurrentData информация за текущия търговски обект
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Barsys

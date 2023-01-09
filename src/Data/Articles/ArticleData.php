@@ -27,7 +27,7 @@ class ArticleData{
 
 /**
  * Публично име на артикул. Мултиезично.
- * @var \Barsy\Data\Languages\MultiLanguageData
+ * @var \VenosT\Barsy\Data\Languages\MultiLanguageData
  */
   public $article_name_public_ml;
 
@@ -231,7 +231,7 @@ class ArticleData{
 
 /**
  * Описание на артикула - свободен текст. Мултиезично.
- * @var \Barsy\Data\Languages\MultiLanguageData
+ * @var \VenosT\Barsy\Data\Languages\MultiLanguageData
  */
   public $description_ml;
 

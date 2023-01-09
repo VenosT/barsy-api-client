@@ -31,13 +31,13 @@ class Places{
 
   /**
    * Изтегляне на списък с всички места 
-   * @param \Barsy\Data\Places\PlacesListFiltersData $filters null Филтриране на списъка
+   * @param\VenosT\Barsy\Data\Places\PlacesListFiltersData $filters null Филтриране на списъка
    * @param array $extra_properties [] Допълнителни данни за всяка маса
    * @param int $offset 0 Начална стойност
    * @param int $length 10000 Брой върнати записи
    * @param string $order_by null Сортиране по
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Salons\PlaceData[] списък от обекти
+   * @return\VenosT\Barsy\Data\Salons\PlaceData[] списък от обекти
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Places
@@ -58,7 +58,7 @@ class Places{
    * Връща списък с местата, които имат поне една отворена сметка 
    * @param string $checksum null 
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Salons\PlaceAccountsData[]
+   * @return\VenosT\Barsy\Data\Salons\PlaceAccountsData[]
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Places
@@ -77,7 +77,7 @@ class Places{
    * @param string $from_date null начална дата
    * @param string $to_date null крайна дата
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Salons\PlaceData[] списък от обекти
+   * @return\VenosT\Barsy\Data\Salons\PlaceData[] списък от обекти
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Places
@@ -98,7 +98,7 @@ class Places{
    * @param string $to_date null крайна дата
    * @param array $persons null брой потребители
    * @param string $response_type Тип да отговора на сървъра (json|res|pdf|html|xml|txt|csv|excel) По подразбиране: json
-   * @return \Barsy\Data\Salons\PlaceData[] списък от обекти
+   * @return\VenosT\Barsy\Data\Salons\PlaceData[] списък от обекти
    * @throws BarsyApiClientFault
    * @throws BarsyApiClientMessage
    * @see Places

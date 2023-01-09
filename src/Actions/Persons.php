@@ -50,7 +50,7 @@ class Persons{
 
   /**
    * Връща списък с наличните представители
-   * @param \Barsy\Data\Persons\PersonsListFiltersData $filters []
+   * @param\VenosT\Barsy\Data\Persons\PersonsListFiltersData $filters []
    * @param array $extra_properties [] 
    * @param int $offset 0 
    * @param int $length 100 
